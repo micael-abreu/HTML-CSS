@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5 </title>
+</head>
+<body>
+    <H1>Imagens dinâmicas</H1>
+    <p>Tente abrir esse site em vários dispositivos ou simplesmente aumente e diminua o tamanho do seu navegador. </p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png"> <!--Mesma coisa porem com pixelagem menor.-->
+<source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--próxima imagem a ser carregada CASO o navegador tenha MENOS que 1050px. E nao esquecer de por "png" em SRCSET. caso a imagem seja em png-->
+        <img src="imagens/foto-g.png" alt="Imagem flexível"> <!--Imagem base-->
+    </picture>
+    <h1>Reproduzindo áudio </h1>
+  <p>Reproduzindo áudios em HTML5 </p> 
+   <audio src="midia/r&b- DJ Williams.mp3" controls loop></audio> <!--Posso usar além de "controls", o comando "autoplay" onde nao tera botão de play e o áudio reporduzirá sozinho-->
+   <!--o loop é controle apenas para a música ficar em looping-->
+  
+</body>
+</html>
