@@ -69,15 +69,20 @@ section.normal{
 section.image#img1{
     background-color: rgb(51, 51, 51);
     color: white;
-    background-image: url(../imagens/background001.jpg);
-    background-position: center;
+    background-image: url(../imagens/flores.jpg);
+    background-position: left;
+  
+   
+
+    
+
     
 }
 section.image#img2{
     background-color: rgb(51, 51, 51);
     color: white;
-    background-image: url(../imagens/background002.jpg);
-    background-position: center;
+    background-image: url(../imagens/background002.jpg)
+    background-position: center
 }
 section.image > p {
    display: inline-block;
