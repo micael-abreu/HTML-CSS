@@ -17,23 +17,44 @@
         table{
             width: 500px;
             border-collapse: collapse;
-            
-
+            position: relative;
         }
-        td {
-            background-color: rgb(255, 255, 255);
-            
-        }
+          thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #8a2be2; 
+          }      
 
         td, th{
             border: 1px solid black;
             padding: 10px;
 
+        } 
+        tbody > tr:nth-child(odd){
+            background-color: white;
+            font-weight: bolder;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: #808080;
+         }
+
+      
+     
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(211, 211, 211);
+
+
         }
 
         thead{
-            background-color: blueviolet;
+            background-color: #8a2be2;
             color: white;
+            
         }
 
         .porcent{
@@ -59,6 +80,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -68,11 +90,12 @@
     -->
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
-                <th> % da População Total</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th style="width: 100px;"> % da População Total</th>
             </tr>
         </thead>
         <tbody>
@@ -217,7 +240,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th class="total">Total de Habitantes</th>
+                <th class="total" scope="row">Total de Habitantes</th>
                 <td class="total"> <strong>214,3M</strong> </td>
                 <td class="porcent
                 ">  ----  </td>
@@ -226,6 +249,8 @@
             </tr>
         </tfoot>
     </table>
-    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quod mollitia itaque recusandae animi? Dolore, necessitatibus tempore nihil modi facilis dignissimos voluptatum eligendi ab recusandae nemo. Quae culpa laborum non!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat doloribus quos, quibusdam fuga tempore pariatur. Ratione quidem corrupti enim officia nihil expedita laudantium ab inventore ullam odio eum, nulla molestiae.</p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi laborum molestias consequuntur dicta assumenda expedita vero veritatis iure, ex ipsam aspernatur cumque porro praesentium ducimus sit eos explicabo deserunt vitae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat repellendus quia expedita quam nisi minima? Enim eaque quas obcaecati soluta quibusdam, omnis deserunt dolor vitae eligendi. Non dolor rerum consequuntur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam totam voluptatum nemo hic aspernatur quisquam amet mollitia sed iusto. Consequatur excepturi ab id. Repudiandae eum dolores accusamus. Culpa, sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, suscipit error? Quas repellat architecto fugit quidem odit non accusantium. Maxime, doloremque fugit. Cum officia eaque quos nobis exercitationem vitae possimus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate exercitationem magni voluptatibus suscipit ipsum non consequuntur vel voluptate earum, minima hic in ullam qui dolor libero rem dolorum tempore odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo at exercitationem, mollitia consequuntur architecto inventore et porro temporibus, reiciendis natus magnam animi, saepe fugiat illo consectetur. Quis error quibusdam molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquam nulla nobis aspernatur dolor ullam dolorum voluptas animi voluptatem consequatur. Perferendis, sunt dicta facere corrupti vel sapiente? Repellendus, possimus eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores voluptatum, vero esse odio magni quidem, distinctio deserunt beatae quia ullam dolore ab optio cupiditate minima ex neque id! Eaque! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, incidunt repudiandae quibusdam, a temporibus nesciunt praesentium ipsa porro aliquid nisi hic eaque similique, accusamus esse asperiores iure et officiis adipisci! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquid, cumque harum eveniet velit, reprehenderit quia consectetur sapiente in sunt earum sint iste minus odit quas accusantium iusto sed ratione! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio adipisci rerum ab unde odit quia illum corporis molestiae qui doloribus deserunt impedit nostrum, inventore reiciendis atque tenetur optio rem numquam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quam qui provident illum aliquid autem voluptatibus debitis minus placeat unde consequuntur ab soluta, id, odio in. Reiciendis sapiente sequi molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit assumenda dicta pariatur officiis, libero facilis maiores deleniti. Doloremque rerum tempore dolor beatae. Reprehenderit iste beatae labore natus ducimus sed distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus eveniet accusantium accusamus, saepe velit? Alias sed sapiente consectetur accusantium architecto expedita, aliquid error nulla quae laborum saepe incidunt quo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum totam eligendi fugit vero amet deserunt voluptas id ipsam inventore quam? Nulla perspiciatis illum pariatur quis tenetur, minima nemo voluptatum atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloribus ullam quod dolorem molestiae ea, debitis nobis nulla qui molestias soluta asperiores voluptatum placeat harum. Iusto inventore cum distinctio facilis.
 </body>
 </html>
