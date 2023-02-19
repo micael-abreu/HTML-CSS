@@ -3,37 +3,66 @@
 /*  em HTML é ID = em CSS é # (só pode um elemento por pagina)
     em HTML é class = em CSS é . (pode vários)
 */
+
 body{
-    background-color: rgb(191, 243, 194);
-    font-family: Arial, Helvetica, sans-serif;
-}
-h1{
-    color: rgb(22, 73, 30);
-}
-h1#principal{
-    text-align: center;
-    background-color: rgba(0, 128, 0, 0.699);
-    color: white;
-
-}
-h2{
-    color: rgb(96, 168, 96);
-}
-
-.basico{
-    color: rgb(96, 168, 96);
-
-}
-.intermediario{
-    color: rgb(155, 168, 96);;
-
-}
-
-.avançado{
-    color: rgb(168, 96, 96);
+    background-image: linear-gradient(to right, blueviolet, rgb(96, 214, 96));
+    margin: 0px;
     
 }
 
-.destaque{
-    background-color: rgba(30, 143, 255, 0.199);
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 5px;
+
 }
+
+#principal{
+    color: blueviolet;
+    background-color: rgba(127, 255, 212, 0.562);
+    text-align: center;
+
+}
+
+h1{
+    color: #1600d8;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+   
+
+}
+
+p{
+    font-size: larger;
+    font-weight: 300;
+    
+}
+
+.basico{
+    color: #57a557;
+    text-align: right;
+    background-color: #57a55742;
+ text-shadow: 1px 1px 2px   black;
+}
+
+.intermediario {
+    color: #c5c555;
+    text-align: right;
+    background-color: #c5c55546;
+    text-shadow: 1px 1px 2px   black;
+
+
+}
+
+.avançado, .destaque{
+    color: #e26464;
+    text-align: right;
+    background-color: #e2646450;
+    text-shadow: 1px 1px 2px   black;
+
+}
+
+
+
+
