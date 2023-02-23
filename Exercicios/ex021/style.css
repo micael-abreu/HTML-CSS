@@ -1,17 +1,34 @@
 @charset "UTF-8";
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #0B5BDE;
+    background-color: #979797;
 
 }
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #868686;
+    text-shadow: 1px 1px 1px black
+
+}
+
+section > h1{
+    text-shadow: 1px 1px 1px white;
+}
+
+h2{
+    text-shadow:1px 1px 0px white;
+}
+
 header{
-    background-color: bisque;
+    background-color: #d4d4d4;
     padding: 10px;
     margin: 10px;
 }
 
 main{
-    background-color: bisque;
+    background-color: #262626;
     padding: 10px;
     margin: 10px;
     border-radius: 10px 0px;
@@ -19,9 +36,10 @@ main{
 
 }
 nav{
-    background-color:#011EF5;
+    background-color: #1b1a40b9;
     padding: 3px;
-   box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.39);
+   box-shadow:3px 2px 2px 0px 
+   #000000;
  
   
    
@@ -32,33 +50,39 @@ nav{
 nav > a {
     text-decoration: none;
     color: white;
+    padding: 3px;
     font-weight: bold;
     margin: 30px;
    
 }
 
 nav > a:hover{
-    text-decoration: underline;
-    padding: 3px;
+    text-decoration: none;
+    background-color: rgb(53, 44, 105);
+    transition: 0.5s;
    
 }
 
 article{
-    background-color: rgba(240, 248, 255, 0.479);
- 
+    background-color: #d4d4d4;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
     padding: 5px;
   
 }
 
 article > aside {
-    background-color:#00F8F7;
+    background-color:#1B1A40;
+    color: white;
+
 
     
 }
 
 footer{
     background-color:black ;
-    color: bisque;
+    color: white;
     text-align: center;
     padding: 4px;
     
